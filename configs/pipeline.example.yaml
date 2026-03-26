@@ -1,0 +1,17 @@
+project:
+  name: video-object-removal
+  seed: 42
+
+paths:
+  frames_dir: frames
+  masks_dir: masks
+  outputs_dir: outputs
+
+pipeline:
+  detector: yolo_stub
+  masker: sam2_stub
+  inpainter: propainter_stub
+
+runtime:
+  device: cpu
+  save_intermediate: true
