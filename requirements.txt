@@ -1,0 +1,11 @@
+# Core
+numpy>=1.26
+opencv-python>=4.9
+PyYAML>=6.0
+
+# Optional model integrations (install as needed)
+torch>=2.2
+ultralytics>=8.2
+
+# Utilities
+rich>=13.7
